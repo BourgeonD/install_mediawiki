@@ -79,7 +79,7 @@ fi
 # Création du .htpasswd
 cd /etc/apache2/
 read -p "Donnez le nom d'utilisateur d'accès au wiki: " name_wiki
-read -p "Donnez le nom du fichier .htpasswd [hors .htpasswd]" name_htpasswd
+read -p "Donnez le nom du fichier .htpasswd [hors .htpasswd]: " name_htpasswd
 echo "Entrez le mot de passe du nouvel utilisateur :"
 sudo htpasswd -cm .$name_htpasswd $name_wiki
 
