@@ -15,7 +15,7 @@ Avant d'exécuter ce script, assurez-vous que votre système répond aux exigenc
 1. **Téléchargement du script**: Téléchargez le script `install_mediawiki.sh` depuis le référentiel Git.
 
    ```bash
-   wget https://example.com/install_mediawiki.sh
+   wget https://github.com/BourgeonD/install_mediawiki.git
    ```
 2. **Attribution des permissions d'exécution**: Rendez le script exécutable
    ```bash
